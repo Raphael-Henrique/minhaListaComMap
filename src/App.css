@@ -1,4 +1,60 @@
-.App {
+/*
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*/
+.color{
+  color: gray;
+}
+.h1{
+  flex-direction: row;
+  margin-bottom: 10%
+}
+.lista{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.titulo{
+  flex-direction: column;
+}
+.loja{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.usuario{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.data{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.termos{
+  text-align: center;
+}
+/*
+.enviados{
+  text-align: center;
+}
+.lidos{
+  text-align: center;
+}
+.pendentes{
+  text-align: center;
+}
+.recebidos{
+  text-align: center;
+}
+/*
+.acoes{
+  flex-direction: column;
+  align-items: flex-start
+}
+/*
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +92,4 @@
     transform: rotate(360deg);
   }
 }
+*/
